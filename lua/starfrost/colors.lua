@@ -6,9 +6,9 @@
 ---@type starfrost.types.colors
 _G.starfrost_colors = {
   bg0_hard    = { "#1E2129", 0 },
-  bg0         = { "#262A33", 0 },
+  bg0         = { "#272B33", 0 },
   bg0_soft    = { "#2F333D", 0 },
-  bg1         = { "#2A3038", 8 },
+  bg1         = { "#323842", 8 },
   bg2         = { "#414A57", 8 },
   bg3         = { "#4E5861", 8 },
   bg4         = { "#5A636B", 8 },
