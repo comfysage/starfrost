@@ -24,7 +24,6 @@ _G.starfrost_colors = {
   purple      = { "#AD9BC2", 5 },
   grey0       = { "#787C84", 8 },
   grey1       = { "#747C8E", 15 },
-  grey3       = { "#9DA9A0", 8 },
 }
 
 local M = {}
