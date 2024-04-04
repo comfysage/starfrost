@@ -87,9 +87,9 @@ return function(theme, config)
 
     ['@nontext']               = { link = 'NonText' },
     ['@text']                  = { theme.fg1 },
-    ['@text.emphasis']         = { theme.taiyo, italic = true },
-    ['@markup.strong']         = { theme.taiyo, bold = true, },
-    ['@markup.italic']         = { theme.taiyo, italic = true, },
+    ['@text.emphasis']         = { theme.ike, italic = true },
+    ['@markup.strong']         = { theme.ike, bold = true, },
+    ['@markup.italic']         = { theme.ike, italic = true, },
     ['@markup.heading']        = { link = '@text.title' },            -- headings, titles (including markers)
     ['@markup.quote']          = { link = '@comment' },               -- block quotes
     ['@markup.math']           = { link = '@markup.quote' },          -- math environments (e.g. `$ ... $` in LaTeX)
@@ -108,7 +108,7 @@ return function(theme, config)
 
     ['@text.title']            = { theme.seiun },
     ['@text.title.1']          = { theme.seiun },
-    ['@text.title.2']          = { theme.taiyo },
+    ['@text.title.2']          = { theme.jade },
     ['@text.title.3']          = { theme.shinme },
     ['@text.title.4']          = { link = '@text.title.1' },
     ['@text.title.5']          = { link = '@text.title.2' },
